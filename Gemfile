@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.1'
 
-gem 'webpacker'
+gem 'webpacker', github: "rails/webpacker"
 gem 'react_on_rails', '11.1.8' # always use exact version
 # gem "react_on_rails", path: "../../react_on_rails"
 #
